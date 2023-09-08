@@ -20,7 +20,9 @@ const base64 =
   'CjAwMDAwMDAwNzkgMDAwMDAgbiAKMDAwMDAwMDE3MyAwMDAwMCBuIAowMDAwMDAwMzAxIDAw' +
   'MDAwIG4gCjAwMDAwMDAzODAgMDAwMDAgbiAKdHJhaWxlcgo8PAogIC9TaXplIDYKICAvUm9v' +
   'dCAxIDAgUgo+PgpzdGFydHhyZWYKNDkyCiUlRU9G'
-const uri = 'http://gahp.net/wp-content/uploads/2017/09/sample.pdf'
+// const uri = 'https://www.ana.co.jp/topics/coronavirus-travel-information/pdf/Checklist_EN_OTH.pdf'
+const uri = 'https://assets.ctfassets.net/v228i5y5k0x4/5TQiVwUV1KKUq8oauiW468/64427be1c0bba9a609bd7c0b7c73a77b/Japan.pdf'
+// const uri = 'https://sushi.com'
 
 function App() {
   const [error, setError] = React.useState<
